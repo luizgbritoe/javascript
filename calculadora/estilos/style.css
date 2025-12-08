@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    border-radius: 10px;
+    background-color: gray;
+    width: 50vw;
+    height: 50vh;
+}
