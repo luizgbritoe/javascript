@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfândega</title>
+</head>
+<body>
+    <h1>Sistema de Verificação de Nacionalidade</h1>
+    Digite seu país de nascimento: <input type="text" name="nacionalidade" id="nacionalidade">
+    <input type="button" value="verificar" onclick="verificarNacionalidade()">
+    <div id="resultado"></div>
+
+    <script>
+        function verificarNacionalidade() {
+        var nacionalidade = document.querySelector('input#nacionalidade')
+        var nacionalidade = String(nacionalidade.value)
+        var resultado = document.querySelector('div#resultado')
+        if (nacionalidade == 'Brasil') {
+            resultado.innerText += 'Você é brasileiro.'
+        } else {
+            resultado.innerText += 'Você é estrangeiro.'
+        }
+    }
+    </script>
+</body>
+</html>
