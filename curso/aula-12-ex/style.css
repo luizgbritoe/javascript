@@ -7,7 +7,6 @@ body {
 
 header {  
     text-align: center;
-    color: white;
 }
 
 main {
@@ -17,9 +16,22 @@ main {
     width: 70%;
     margin: auto;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#hora {
+    border-radius: 26px;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#foto img {
+    width: 250px;
+    aspect-ratio: 1;
+    border-radius: 50%;
 }
 
 footer {
     text-align: center;
-    color: white;
 }
