@@ -19,6 +19,33 @@ main {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+img {
+    aspect-ratio: 1 / 1;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.crianca {
+    object-position: center 80%;
+}
+
+.jovem {
+    object-position: center 30%;
+}
+
+.jovem-mulher {
+    object-position: center top;
+}
+
+.adulto {
+    object-position: center 25%;
+}
+
+.idosa {
+    object-position: center 100%;
+}
+
 footer {
     color: white;
     text-align: center;

@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-
+        <h1>Verificador de Idade</h1>
     </header>
 
     <main>
         <section>
-            Teste
+            <label for="ano-nasc">Ano de Nascimento: </label>
+            <input type="number" name="ano-nasc" id="ano-nasc" required>
+            
+            <p>Sexo:
+                <input type="radio" name="sexo" id="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <input type="button" value="Verificar" onclick="verificar()">
         </section>
 
-        <section>
-            Opa
+        <section id="resultado">
+
         </section>
     </main>
 
