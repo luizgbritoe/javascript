@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(82, 82, 255);
+    background-color: rgb(131, 131, 255);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+main {
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: blue;
+} 
