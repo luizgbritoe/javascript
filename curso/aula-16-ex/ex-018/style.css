@@ -19,6 +19,14 @@ main {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+section {
+    display: inline-block;
+}
+
+select {
+    width: 150px;
+}
+
 footer {
     color: white;
     text-align: center;
